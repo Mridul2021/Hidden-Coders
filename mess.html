@@ -1,0 +1,72 @@
+<html>
+<head>
+<link rel="stylesheet" href="warden.css">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Nunito+Sans:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Hostel Buddy</h1>
+        <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="suggestions.html">Suggestions</a></li>
+        <li><a href="mission.html">Our Mission</a></li>
+        <li><a href="services.html">Services</a></li>
+        </ul>
+    </div>
+<div class="form-container">
+<h1>NOT COMING TO MESS?</h1>
+<p>Please fill in this form and help to save food!!</p>
+<form action="#" method="post">
+<div class="form-group">
+<label for="name">Name</label>
+<input type="text" id="name" name="name" placeholder="Enter your name" required>
+</div>
+<div class="form-group">
+<label for="regno">Registration Number</label>
+<input type="text" id="regno" name="regno" placeholder="Enter your registration number" required>
+</div>
+<div class="form-group">
+<label for="block">Block</label>
+<select id="block" name="block" required>
+<option value="">Select your block</option>
+<option value="A-block">A-block</option>
+<option value="B-block">B-block</option>
+<option value="C-block">C-block</option>
+<option value="D-block">D-block</option>
+<option value="E-block">E-block</option>
+<option value="F-block">F-block</option>
+<option value="G-block">G-block</option>
+<option value="H-block">H-block</option>
+<option value="J-block">J-block</option>
+<option value="K-block">K-block</option>
+<option value="L-block">L-block</option>
+<option value="M-block">M-block</option>
+<option value="N-block">N-block</option>
+<option value="P-block">P-block</option>
+<option value="Q-block">Q-block</option>
+<option value="R-block">R-block</option>
+</select>
+</div>
+
+<div class="form-group">
+<label for="roomno">Room Number</label>
+<input type="text" id="roomno" name="roomno" placeholder="Enter your room number" required>
+</div>
+
+<!-- Added this section to create a box to write a complaint -->
+<div class="form-group">
+<label for="complaint">Reason for not coming to mess</label>
+<textarea id="complaint" name="complaint" placeholder="Type here..." rows="5" required></textarea> <!-- Used a textarea element to allow multiple lines of text -->
+</div>
+
+<div class="form-group">
+<button type="submit">Report the problem</button> <!-- Changed the button text as per the request -->
+</div>
+</form>
+</div>
+</body>
+</html>
+

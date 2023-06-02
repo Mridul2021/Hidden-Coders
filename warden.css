@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+  }
+  
+  .form-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .form-container p {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #333333;
+  }
+  
+  .form-group input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #f0f0f0;
+  }
+  
+  .form-group input:focus {
+  outline: none; /* Removed the default outline */
+  border-bottom-color: #333333; /* Changed the border color on focus */
+  }
+  
+  .form-group select {
+  display: block; /* Made the select element a block element */
+  width: 100%; /* Made the select element fill the width */
+  height: 40px; /* Set the select element height */
+  border: none; /* Removed the default border */
+  border-bottom: 2px solid #f0f0f0; /* Added a bottom border */
+  appearance: none; /* Removed the default appearance */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='%23333333'%3E%3Cpath d='M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z' /%3E%3C/svg%3E"); /* Added a custom arrow icon */
+  background-repeat: no-repeat; /* Prevented the icon from repeating */
+  background-position: right center; /* Positioned the icon on the right center */
+  background-size: contain; /* Contained the icon within the element */
+  padding-right: 30px; /* Added some padding on the right to avoid overlapping with the icon */
+  }
+  
+  .form-group select:focus {
+  outline: none; /* Removed the default outline */
+  border-bottom-color: #333333; /* Changed the border color on focus */
+  }
+  
+  /* Added this section to style the textarea element */
+  .form-group textarea {
+  display: block; /* Made the textarea element a block element */
+  width: 100%; /* Made the textarea element fill the width */
+  height: auto; /* Set the textarea element height to auto */
+  border-radius: 10px; /* Added a border radius to match the form container */
+  border: none; /* Removed the default border */
+  box-shadow: inset -2px -2px -4px rgba(0,0,0,0.1); /* Added an inset shadow to create some depth */
+  padding: 10px; /* Added some padding for spacing */
+  resize:none; /* Disabled resizing of the textarea element */
+  }
+  
+  .form-group textarea:focus {
+  outline:none; /* Removed the default outline */
+  box-shadow:none; /* Removed the inset shadow on focus */
+  border-radius:none; /* Removed the border radius on focus */
+  }
+  
+  .form-group button {
+  display: block; /* Made the button a block element */
+  width: 100%; /* Made the button fill the width */
+  height: 40px; /* Set the button height */
+  background-color: #333333; /* Set the button background color */
+  border: none; /* Removed the default border */
+  border-radius: 10px; /* Added a border radius to match the form container */
+  color: #ffffff; /* Set the button text color */
+  font-size: 16px; /* Set the button font size */
+  font-weight: bold; /* Made the button text bold */
+  cursor:pointer; /* Changed the cursor to a pointer on hover */
+  }
+  
+  .form-group button:hover {
+  background-color:#666666; /* Changed the button background color on hover */
+  }
+  

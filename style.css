@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-image: url(./assets/pexels.jpeg);
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    background-color: #0f0e0e;
+    height: 60px;
+  }
+  
+  .navbar h1 {
+    flex: 1;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 20px;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333333;
+  }
+
+.navbar a {
+  text-decoration: none;
+  color:#ffffff
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto; /* Changed this line to fit the content section */
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  padding: 10px;
+
+text-align: center; 
+}
+
+.card p {
+  font-size: 14px;
+  color: #666666;
+  padding: 10px;
+}
+
+/* Added this section to style the content section */
+.content {
+
+background-color: whitesmoke; /* Added a background color to distinguish from the cards */
+border-radius: 10px; /* Added a border radius to match the cards */
+box-shadow: inset -2px -2px -4px rgba(0,0,0,0.1); /* Added an inset shadow to create some depth */
+padding: 20px; /* Added some padding for spacing */
+
+}
+
+.content h3 {
+font-size: 22px; /* Increased the font size for the title */
+font-weight: bold; /* Made the title bold */
+color: #333333; /* Used the same color as the card headings */
+margin-bottom: 10px; /* Added some margin for spacing */
+}
+
+.content p {
+font-size: 16px; /* Increased the font size for the paragraphs */
+color: #666666; /* Used the same color as the card paragraphs */
+line-height: 1.5; /* Increased the line height for readability */
+margin-bottom: 10px; /* Added some margin for spacing */
+}
