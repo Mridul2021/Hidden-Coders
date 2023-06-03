@@ -5,6 +5,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Nunito+Sans:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+<script src="node.js"></script>
 </head>
 <body>
     <div class="navbar">
@@ -59,11 +60,12 @@
 <!-- Added this section to create a box to write a complaint -->
 <div class="form-group">
 <label for="complaint">Complaint</label>
-<textarea id="complaint" name="complaint" placeholder="Write your complaint here" rows="5" required></textarea> <!-- Used a textarea element to allow multiple lines of text -->
+<textarea id="complaint msg" name="complaint msg" placeholder="Write your complaint here" rows="5" required></textarea> <!-- Used a textarea element to allow multiple lines of text -->
 </div>
 
 <div class="form-group">
-<button type="submit">Report the problem</button> <!-- Changed the button text as per the request -->
+<button type="submit" id="bt">Report the problem</button> <!-- Changed the button text as per the request -->
+
 </div>
 </form>
 </div>

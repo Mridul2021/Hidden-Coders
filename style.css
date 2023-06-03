@@ -85,13 +85,16 @@ border-radius: 10px; /* Added a border radius to match the cards */
 box-shadow: inset -2px -2px -4px rgba(0,0,0,0.1); /* Added an inset shadow to create some depth */
 padding: 20px; /* Added some padding for spacing */
 
+
 }
 
 .content h3 {
 font-size: 22px; /* Increased the font size for the title */
 font-weight: bold; /* Made the title bold */
 color: #333333; /* Used the same color as the card headings */
-margin-bottom: 10px; /* Added some margin for spacing */
+margin-bottom: 10px;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Nunito Sans', sans-serif; /* Added some margin for spacing */
 }
 
 .content p {
@@ -100,3 +103,14 @@ color: #666666; /* Used the same color as the card paragraphs */
 line-height: 1.5; /* Increased the line height for readability */
 margin-bottom: 10px; /* Added some margin for spacing */
 }
+
+/* .animate-me {
+    -webkit-transition: all 1000ms 0s ease-in-out;
+    -moz-transition: all 1000ms 0s ease-in-out;
+    -ms-transition: all 1000ms 0s ease-in-out;
+    transition: all 1000ms 0s ease-in-out;
+}
+.im-hidden {
+    margin-top: -100%;
+    opacity: 0;
+} */
